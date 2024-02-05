@@ -1,4 +1,5 @@
-FROM node:alpine3.18 as build
+FROM node:alpine3.19 as build
+ENV NODE_VERSION 20.11.0
 
 # Declare build time environment variables
 ARG REACT_APP_NODE_ENV
